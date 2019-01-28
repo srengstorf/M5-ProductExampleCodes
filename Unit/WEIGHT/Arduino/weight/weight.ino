@@ -6,7 +6,7 @@
 #include <M5Stack.h>
 #include "hx711.h"
 
-HX711 scale(36, 26);// GROVE B
+Hx711 scale(36, 26);// GROVE B
 
 void setup() {
   M5.begin();
